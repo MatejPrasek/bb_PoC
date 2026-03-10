@@ -1,5 +1,7 @@
-document.querySelector('#content h1')?.remove();
-document.querySelector('#content dt')?.remove();
+document.addEventListener('DOMContentLoaded', () => {
+	document.querySelector('#content h1')?.remove();
+	document.querySelector('#content dt')?.remove();
+});
 const payload = document.getElementById("payload");
 
 payload.innerHTML = `     
@@ -202,6 +204,7 @@ dxo.AfterCreate();
 
 
 `;
+
 
 
 
