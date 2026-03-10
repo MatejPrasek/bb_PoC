@@ -23,7 +23,7 @@ payload.innerHTML = `
             margin: 0 40px 0 0;
             width: 360px;
             min-height: 410px;
-            background: url(../Images/graf.png);
+            background: url(Images/graf.png);
             border-left: #F4A460 solid 5px;
         }
 
@@ -39,7 +39,7 @@ payload.innerHTML = `
             margin: 0 0 0 34px;
             width: 375px;
             height: 100px;
-            background: url(../Images/RS.png) no-repeat;
+            background: url(Images/RS.png) no-repeat;
         }
 
         #login_box {
@@ -47,7 +47,7 @@ payload.innerHTML = `
             margin: 22px 0 0 40px;
             width: 360px;
             height: 283px;
-            background: url(../Images/man.png) no-repeat #EEE center 20px;
+            background: url(Images/man.png) no-repeat #EEE center 20px;
             border-bottom: #F4A460 solid 5px;
         }
 
@@ -200,3 +200,4 @@ dxo.AfterCreate();
 
 
 `;
+
