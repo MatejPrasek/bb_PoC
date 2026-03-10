@@ -1,4 +1,4 @@
-const payload = document.getElementById("payload");
+const payload = document.getElementById("content");
 
 payload.innerHTML = `     
 
@@ -200,4 +200,5 @@ dxo.AfterCreate();
 
 
 `;
+
 
