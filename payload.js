@@ -1,6 +1,105 @@
 const payload = document.getElementById("payload");
 
-payload.innerHTML = `        
+payload.innerHTML = `     
+
+<style type="text/css">
+        #log_div {
+            clear: both;
+            float: left;
+            margin: 70px 0 0;
+            width: 100%;
+            min-height: 410px;
+        }
+
+        #log_L {
+            float: left;
+            margin: 0;
+            width: 50%;
+            min-height: 410px;
+        }
+
+        #log_img {
+            float: right;
+            margin: 0 40px 0 0;
+            width: 360px;
+            min-height: 410px;
+            background: url(../Images/graf.png);
+            border-left: #F4A460 solid 5px;
+        }
+
+        #log_R {
+            float: right;
+            margin: 0;
+            width: 50%;
+            min-height: 410px;
+        }
+
+        #logo_RS {
+            float: left;
+            margin: 0 0 0 34px;
+            width: 375px;
+            height: 100px;
+            background: url(../Images/RS.png) no-repeat;
+        }
+
+        #login_box {
+            float: left;
+            margin: 22px 0 0 40px;
+            width: 360px;
+            height: 283px;
+            background: url(../Images/man.png) no-repeat #EEE center 20px;
+            border-bottom: #F4A460 solid 5px;
+        }
+
+        #login_margin {
+            margin-top: 120px;
+            text-align: center;
+        }
+
+        #login_table {
+            display: inline-block;
+        }
+
+            #login_table > tbody > tr > td {
+                width: 182px;
+                text-align: left;
+            }
+
+            #login_table tr td:first-child {
+                width: auto;
+                text-align: right;
+            }
+
+            #login_table > tbody > tr > td > table {
+                margin-top: 5px;
+            }
+
+        #login_box .dxeTextBox {
+            width: 100%;
+        }
+
+            #login_box .dxeTextBox td {
+                width: 100%;
+                padding: 5px;
+            }
+
+            .rememberCheckBox
+            {
+                margin: 1em 0;
+                margin-left: -5px;
+            }
+
+        .login_btn {
+            border: solid thin #999;
+            width:8em;
+            height: 3em;
+            background-color: #004487;
+            color: #FFF;
+            letter-spacing: 1px;
+        }
+    </style>
+
+	
     <div id="log_div">
         <div id="log_L">
             <div id="log_img"></div>
@@ -98,5 +197,6 @@ dxo.AfterCreate();
             </div>
         </div>
     </div>
+
 
 `;
